@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/juergenschubert/dd-hardware-assets/blob/main/schema/asset-manifest.schema.json",
+  "title": "DD Hardware Assets manifest",
+  "description": "Optional metadata for production-approved PNGs in heads/ and shelves/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "category",
+          "model"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^(heads|shelves)/[^/]+[.]png$",
+            "description": "Repository-relative path to a PNG in a production image folder."
+          },
+          "category": {
+            "enum": [
+              "head",
+              "shelf"
+            ]
+          },
+          "model": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "description": "Where the image came from, if known."
+          },
+          "rights_basis": {
+            "type": "string",
+            "description": "Why public distribution is authorized."
+          },
+          "approval_reference": {
+            "type": "string",
+            "description": "Optional reference to production approval."
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "head"
+                }
+              },
+              "required": [
+                "category"
+              ]
+            },
+            "then": {
+              "properties": {
+                "path": {
+                  "pattern": "^heads/[^/]+[.]png$"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "shelf"
+                }
+              },
+              "required": [
+                "category"
+              ]
+            },
+            "then": {
+              "properties": {
+                "path": {
+                  "pattern": "^shelves/[^/]+[.]png$"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
