@@ -1,4 +1,131 @@
 {
   "schema_version": 1,
-  "assets": []
+  "assets": [
+    {
+      "path": "heads/DD3300_source_v1.png",
+      "category": "head",
+      "model": "DD3300",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD3410_source_v1.png",
+      "category": "head",
+      "model": "DD3410",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD6400_source_v1.png",
+      "category": "head",
+      "model": "DD6400",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD6410_source_v1.png",
+      "category": "head",
+      "model": "DD6410",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD6900_source_v1.png",
+      "category": "head",
+      "model": "DD6900",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD9400_source_v1.png",
+      "category": "head",
+      "model": "DD9400",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD9410_source_v1.png",
+      "category": "head",
+      "model": "DD9410",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD9900_source_v1.png",
+      "category": "head",
+      "model": "DD9900",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD9910F_source_v1.png",
+      "category": "head",
+      "model": "DD9910F",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "heads/DD9910_source_v1.png",
+      "category": "head",
+      "model": "DD9910",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/DS600_source_v1.png",
+      "category": "shelf",
+      "model": "DS600",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/DS60_source_v1.png",
+      "category": "shelf",
+      "model": "DS60",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/ES120_source_v1.png",
+      "category": "shelf",
+      "model": "ES120",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/ES30_source_v1.png",
+      "category": "shelf",
+      "model": "ES30",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/ES40_source_v1.png",
+      "category": "shelf",
+      "model": "ES40",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/FS15_source_v1.png",
+      "category": "shelf",
+      "model": "FS15",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/FS240_source_v1.png",
+      "category": "shelf",
+      "model": "FS240",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    },
+    {
+      "path": "shelves/FS25_source_v1.png",
+      "category": "shelf",
+      "model": "FS25",
+      "source": "AI-generated",
+      "rights_basis": "AI-generated and approved for public distribution"
+    }
+  ]
 }
